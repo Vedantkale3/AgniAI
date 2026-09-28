@@ -1,0 +1,41 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+backend/.env
+.env
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+*.iml
+
+node_modules/
+dist/
+
+.env
+.env.*
+!.env.example
+*.log
+
+**/data/uploads/
+**/data/deliverables/
+**/data/chroma_store/
+**/qdrant_local_storage/
+eval/results/
+
+*.pdf
+*.pptx
+*.xlsx
+*.docx
